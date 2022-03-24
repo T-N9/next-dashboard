@@ -44,7 +44,7 @@ export default function Home({background}) {
             likes = {background.likes}
           />
 
-          <div>
+          <div className='absolute top-[5%] right-[5%] sm:relative sm:right-0'>
             <button onClick={() => dispatch(setOptionToggle())} className='w-10 h-10 bg-white flex justify-center items-center rounded-full text-primary shadow-md'>
               <PencilAltIcon width={25}/>
             </button>
