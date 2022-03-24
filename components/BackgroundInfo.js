@@ -28,7 +28,7 @@ const BackgroundInfo = (props) => {
                     </a>
                 </p>
 
-                <Image className="rounded-full" src={author_pic} width={35} height={35}/>
+                <Image className="rounded-full" alt={author_name} src={author_pic} width={35} height={35}/>
             </div>
 
             <div className="text-secondary flex mt-3">

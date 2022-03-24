@@ -26,7 +26,7 @@ const Crypto = () => {
     return(
         <section className="max-w-[70%]">
             <div className="flex items-center">
-                <Image src={image} width={50} height={50}/>
+                <Image src={image} alt='crypto img' width={50} height={50}/>
                 <h1 className="text-white text-2xl ml-2 font-bungee drop-shadow-tn">
                     {coinName}
                 </h1>
