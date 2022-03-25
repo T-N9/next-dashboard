@@ -21,7 +21,7 @@ const BackgroundInfo = (props) => {
             <div className="flex items-center mt-2">
                 <p className="mr-4">
                     By &nbsp; 
-                    <a href={author_link} target="_blank">
+                    <a href={author_link}>
                         <span className="font-bold">
                          {author_name}
                         </span>
