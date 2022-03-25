@@ -27,7 +27,7 @@ function Option() {
   }
 
   return (
-    <section className={toggle ? `opacity-100 visible transition-all absolute flex justify-center items-center top-0 right-0 w-full h-full bg-slate-700 bg-opacity-70 backdrop-blur-sm backdrop-grayscale z-50` : `absolute flex justify-center items-center top-0 right-0 w-full h-full invisible opacity-0 transition-all`}>
+    <section className={toggle ? `opacity-100 visible transition-all fixed flex justify-center items-center top-0 right-0 w-full h-full bg-slate-700 bg-opacity-70 backdrop-blur-sm backdrop-grayscale z-50` : `fixed flex justify-center items-center top-0 right-0 w-full h-full invisible opacity-0 transition-all`}>
 
       <button onClick={() => dispatch(setOptionToggle())} className="text-secondary w-7 absolute top-[20%] right-[10%]">
         <XCircleIcon/>
